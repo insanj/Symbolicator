@@ -1,3 +1,9 @@
+.DS_Store
+.theos
+theos
+*.deb
+obj
+_
 
 Package/DEBIAN/control
 

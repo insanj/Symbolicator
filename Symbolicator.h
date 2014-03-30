@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Symbolication/Symbolication.h>
+#import "Symbolication/Symbolication.h"
 
 #include "uthash.h"
 
@@ -24,9 +24,9 @@ struct MethodEntry {
     VMUSymbolicator *_symbolicator;
     VMUProcessDescription *_processInfo;
     VMUMachTaskContainer *_machContainer;
-    
+
     struct MethodEntry *_methodList;
-    
+
     unsigned int _maxAddress;
     unsigned int _minAddress;
 

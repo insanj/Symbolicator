@@ -1,0 +1,11 @@
+Package: com.insanj.symbolicator
+Name: Symbolicator
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Reveal redacted at runtime.
+ A Cydia Substrate library that reveals "<redacted>" symbol names at runtime
+Maintainer: Julian Weiss <insanjmail@insanj.com>
+Author: ericcastro
+Section: Tweaks
+Homepage: https://github.com/ericcastro/Symbolicator
